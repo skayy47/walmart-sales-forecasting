@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+walmart_env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Raw data (too large for git — download from Kaggle)
+data/
+pro bi/train.csv
+pro bi/features.csv
+pro bi/stores.csv
+pro bi/clean_walmart.csv
+pro bi/walmart_forecast.csv
+pro bi/*.exe
+
+# Intermediate / local outputs (not in outputs/)
+pro bi/walmart_best_model_test_predictions*.csv
+pro bi/walmart_prophet_optuna_predictions.csv
+pro bi/powerbi_*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+
+# Logs
+*.log
+logs/
