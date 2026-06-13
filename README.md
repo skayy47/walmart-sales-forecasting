@@ -1,6 +1,6 @@
 # Walmart Sales Forecasting — End-to-End ML + BI Pipeline
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://skayy47-walmart-sales-forecasting.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://walmart-sales-forecasting-skay.streamlit.app)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
 ![XGBoost](https://img.shields.io/badge/XGBoost-2.0-orange?logo=xgboost)
 ![Prophet](https://img.shields.io/badge/Prophet-1.1-blue)
@@ -166,7 +166,7 @@ study.optimize(objective, n_trials=30)
 
 The app is deployed on Streamlit Cloud — **no install required**:
 
-👉 **[walmart-sales-forecasting.streamlit.app](https://skayy47-walmart-sales-forecasting.streamlit.app)**
+👉 **[walmart-sales-forecasting-skay.streamlit.app](https://walmart-sales-forecasting-skay.streamlit.app)**
 
 Five interactive pages:
 - **📊 Overview** — KPI cards, historical sales trend, YoY heatmap
