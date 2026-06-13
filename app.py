@@ -452,8 +452,9 @@ elif page == "📈 Feature Analysis":
         text=fi_df["Importance"].map(lambda x: f"{x:.3f}"),
         textposition="outside",
     ))
-    fig2.update_layout(**LAYOUT, title="Top 20 Feature Importances — XGBoost (Optuna + FE)",
-                       height=550, margin=dict(l=100, r=60, t=40, b=0))
+    fig2.update_layout(**{**LAYOUT, "margin": dict(l=100, r=60, t=40, b=0)},
+                       title="Top 20 Feature Importances — XGBoost (Optuna + FE)",
+                       height=550)
     st.plotly_chart(fig2, use_container_width=True)
 
     # ── Correlation insight ──
