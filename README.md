@@ -1,9 +1,11 @@
 # Walmart Sales Forecasting — End-to-End ML + BI Pipeline
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://skayy47-walmart-sales-forecasting.streamlit.app)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
 ![XGBoost](https://img.shields.io/badge/XGBoost-2.0-orange?logo=xgboost)
 ![Prophet](https://img.shields.io/badge/Prophet-1.1-blue)
 ![Optuna](https://img.shields.io/badge/Optuna-3.4-purple)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.32-red?logo=streamlit)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -160,6 +162,21 @@ study.optimize(objective, n_trials=30)
 
 ---
 
+## Live Demo
+
+The app is deployed on Streamlit Cloud — **no install required**:
+
+👉 **[walmart-sales-forecasting.streamlit.app](https://skayy47-walmart-sales-forecasting.streamlit.app)**
+
+Five interactive pages:
+- **📊 Overview** — KPI cards, historical sales trend, YoY heatmap
+- **🤖 Model Comparison** — Actual vs XGBoost vs Prophet, residual analysis, scatter plot
+- **🔮 Forecast** — Future forecast with 95% confidence bands + seasonal components
+- **📈 Feature Analysis** — Interactive feature importance, rolling statistics, key insights
+- **🖼️ Gallery** — All 9 high-res dashboard charts
+
+---
+
 ## Quick Start
 
 ```bash
@@ -178,6 +195,9 @@ pip install -r requirements.txt
 jupyter lab
 # → notebooks/01_data_cleaning.ipynb
 # → notebooks/02_ml_forecasting.ipynb
+
+# 5. Launch the Streamlit dashboard locally
+streamlit run app.py
 ```
 
 > All outputs (dashboard PNGs + Power BI CSVs) are regenerated automatically.
